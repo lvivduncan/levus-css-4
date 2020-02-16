@@ -92,19 +92,17 @@ video {
 }
 
 :root {
-    /* primary colors */
-    --one: #5E77EE;
-    --two: #0C7E75;
-    --three: #B00B00;
-    --four: #EF5;
-    --five: #70E;
-    --six: #FA5C1A;
+    --first: #5E77EE;
+    --second: #0C7E75;
 
-    /* colored colors */
     --white: #fff;
     --light: ivory;
     --black: #000;
     --dark: #071715;
+    --orange: #FA5C1A;
+    --danger: #B00B00;
+    --sun: #EF5;
+    --purpur: #70E;
 }
 
 html,
@@ -121,13 +119,13 @@ body {
 }
 
 a {
-    color: var(--one);
+    color: var(--first);
     text-decoration: underline;
 }
 
 a:hover,
 a:focus {
-    color: var(--three);
+    color: var(--danger);
     text-decoration: none;
 }
 
@@ -245,7 +243,7 @@ ins {
 
 mark,
 .mark {
-    background: var(--one);
+    background: var(--first);
     padding: 1px 3px;
 }
 
@@ -255,8 +253,8 @@ blockquote,
     padding: 5px 5px 5px 10px;
     font-family: serif;
     font-style: italic;
-    border-left: 5px solid var(--one);
-    border-right: 5px solid var(--one);
+    border-left: 5px solid var(--first);
+    border-right: 5px solid var(--first);
     border-radius: 10px;
 }
 
@@ -300,6 +298,7 @@ code {
     background: var(--light);
 }
 
+/* list */
 ul,
 ol {
     padding: 0 0 10px;
@@ -323,28 +322,28 @@ ol li {
 }
 
 /* background */
-.bg-one {
-    background: var(--one);
+.bg-first {
+    background: var(--first);
 }
 
-.bg-two {
-    background: var(--two);
+.bg-second {
+    background: var(--second);
 }
 
-.bg-three {
-    background: var(--three);
+.bg-danger {
+    background: var(--danger);
 }
 
-.bg-four {
-    background: var(--four);
+.bg-sun {
+    background: var(--sun);
 }
 
-.bg-five {
-    background: var(--five);
+.bg-purpur {
+    background: var(--purpur);
 }
 
-.bg-six {
-    background: var(--six);
+.bg-orange {
+    background: var(--orange);
 }
 
 .bg-light {
@@ -368,28 +367,28 @@ ol li {
     text-align: right;
 }
 
-.text-one {
-    color: var(--one);
+.text-first {
+    color: var(--first);
 }
 
-.text-two {
-    color: var(--two);
+.text-second {
+    color: var(--second);
 }
 
-.text-three {
-    color: var(--three);
+.text-danger {
+    color: var(--danger);
 }
 
-.text-four {
-    color: var(--four);
+.text-sun {
+    color: var(--sun);
 }
 
-.text-five {
-    color: var(--five);
+.text-purpur {
+    color: var(--purpur);
 }
 
-.text-six {
-    color: var(--six);
+.text-orange {
+    color: var(--orange);
 }
 
 .text-light {
@@ -1242,5 +1241,4 @@ ol li {
         order: 6;
     }
 }
-
-/* end */
+/**/
